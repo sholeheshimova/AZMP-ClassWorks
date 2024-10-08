@@ -1,0 +1,33 @@
+h1{
+    color: blue;
+   
+}
+
+#green{
+    background-color: green;
+    height: 100px;
+    text-align: center;
+    
+}
+
+#purple{
+    background-color: purple;
+    height: 100px;
+    text-align: center;
+}
+
+#lightblue{
+    background-color: lightblue;
+    height: 100px;
+    text-align: center;
+}
+
+#grey{
+    background-color:grey;
+    height: 100px;
+    text-align: center;
+}
+.box{
+    border: 2px solid red;
+    margin-bottom: 20px;
+}
