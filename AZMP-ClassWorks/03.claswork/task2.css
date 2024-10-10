@@ -1,0 +1,40 @@
+body {
+  background-image: url(https://startbootstrap.github.io/startbootstrap-clean-blog/assets/img/home-bg.jpg);
+  background-repeat: no-repeat;
+  height: 100vh;
+  background-position: center center;
+  background-size: cove4r;
+  height: 70%;
+}
+
+.class1 ul  {
+  margin-left: 70%;
+  display:flex;
+  color: black;
+  font-size: larger;
+  list-style-type: none;
+  
+}
+
+h1{
+    text-align: center;
+    color: rgb(10, 1, 1);
+    font-size: xx-large;
+}
+
+p{
+    text-align: center;
+    color: rgb(17, 4, 4);
+}
+
+h2{
+    color: rgb(5, 1, 1);
+}
+.class1 ul li {
+    margin-left: 10px;
+
+}
+nav ul li a{
+    text-decoration:none ;
+    color: white;
+}

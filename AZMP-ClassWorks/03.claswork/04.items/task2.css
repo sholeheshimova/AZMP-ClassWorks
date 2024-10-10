@@ -1,0 +1,25 @@
+*{
+    text-align: center;
+}
+
+.cards{
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+}
+
+.card{
+   background-color: lightgray;
+    border: 1px solid lightgray;
+    height: 200px;
+    width: 400px;
+}
+
+i{
+    margin: -35px;
+    border: 1px solid lightblue;
+    background-color: lightblue;
+    font-size: 50px;
+   
+}

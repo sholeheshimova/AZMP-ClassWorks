@@ -1,0 +1,36 @@
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-radius: 10px;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 10px;
+    border-top-right-radius:30px ;
+    border-bottom-left-radius: 30px;
+}
+.box3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(8, 8, 1);
+    border-radius: 10px;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+
+}
+
+.box4{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(224, 22, 22);
+    border-radius: 10px;
+    border-top-right-radius:50px ;
+    border-bottom-left-radius: 50px;
+    
+
+}

@@ -1,0 +1,56 @@
+.items {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: brown;
+  margin: 0 auto;
+}
+
+p.it {
+  font-family: serif;
+  color: brown;
+  font-size: 40px;
+ 
+  
+}
+button {
+  background-color: white;
+  color: brown;
+  margin: 5rem 0;
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+h1{
+  color: brown;
+  font-family: italic;
+  font-size: 50px;
+  width: 300px;
+  margin: 30px auto;
+  margin-top: 250px;
+  
+}
+.area {
+  background-repeat: no-repeat;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMCOaL7i6K0g-3xjPo8btwxfKKNvmLTZ8CGg&s);
+  height: 100vh;
+  background-size: cover;
+}
+
+.items .social-icons i {
+  margin: 0 20px;
+}
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    text-decoration: none;
+
+
+}
