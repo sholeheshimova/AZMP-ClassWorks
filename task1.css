@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 100%;
+    
+}
+
+img {
+    width: 400px;
+    height: 170px;
+}
+.header-top{
+    display: flex;
+    gap: 700px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+i{
+    padding: 5px;
+ font-size: 15px;
+   border: 2px solid red;
+   height: 25px;
+}
+.title{
+    background-color: #d3cdcd;
+}
+.basliq ul{
+    justify-content: center;
+    gap: 90px;
+}
+
+button{
+    border: 1px solid red;
+    height: 40px;
+    width: 60px;
+    color: white;
+    background-color: red;
+}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    display: none;
+    
+}
+
+.icons div{
+    background-color: red;
+    padding: 10px;
+    height: 40px;
+}
+
+.icons div i{
+    color: rgb(255, 255, 255); 
+}
+
+
+@media only screen and (max-width: 1200px){
+    .icons {
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        height: 40px;
+        display: flex;
+    }
+    ul{
+        display: none;
+    }
+    
+}
