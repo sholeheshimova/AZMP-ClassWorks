@@ -1,0 +1,45 @@
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container {  display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    grid-template-areas:
+      "uzum ciyelek qarpiz qarpiz"
+      "portagal portagal qarpiz qarpiz"
+      "portagal portagal qarpiz qarpiz"
+      "portagal portagal qarpiz qarpiz"
+      "balqabaq balqabaq ananas ananas"
+      "balqabaq balqabaq ananas ananas";
+      height: 100vh;
+      margin-top: 40px;
+      gap: 1rem ;
+
+  }
+  /* .container >div img{
+    width: 100%;
+    height: 100%;
+  } */
+  .container >div {
+    background-color: rgb(29, 164, 209);
+    padding: 2rem 0;
+    
+
+  }
+  .uzum { grid-area: uzum; }
+  
+  .ciyelek { grid-area: ciyelek; }
+  
+  .portagal { grid-area: portagal; }
+  
+  .qarpiz { grid-area: qarpiz; }
+  
+  .balqabaq { grid-area: balqabaq; }
+  
+  .ananas { grid-area: ananas; }
+  
