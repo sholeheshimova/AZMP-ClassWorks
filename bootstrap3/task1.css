@@ -1,0 +1,25 @@
+nav .navbar-nav{
+    padding-left: 80%;
+}
+
+
+
+.sec1 {
+    background-color: black;
+  height: 500px;
+}
+
+
+.text{
+  padding-top: 200px;
+  padding-left: 25%;
+   
+}
+.text h3,p{
+    color: white;
+}
+
+.sec1 button{
+ margin-left: 200px;
+}
+

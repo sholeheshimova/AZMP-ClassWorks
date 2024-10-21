@@ -1,0 +1,9 @@
+.container{
+    max-width: 1200px;
+
+}
+
+.row .col-6{
+    padding-right: 0;
+    padding-left: 0;
+}
