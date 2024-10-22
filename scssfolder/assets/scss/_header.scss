@@ -1,0 +1,17 @@
+.head{
+    nav{
+        display: flex;
+        justify-content: space-around;
+        background-color: black;
+        height: 50px;
+        align-items: center;
+        ul{
+            display: flex;
+            gap: 20px;
+            
+        li{
+            color: $color-white;
+        }
+        }
+    }
+}

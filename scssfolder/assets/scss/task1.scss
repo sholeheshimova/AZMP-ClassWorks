@@ -1,0 +1,12 @@
+// h1{
+//     color: blueviolet;
+// }
+
+@import "./reset";
+@import "./variable";
+@import "./grid";
+@import "./_mixin.scss";
+@import "./extend";
+@import "./global";
+@import "./header";
+@import "./home";

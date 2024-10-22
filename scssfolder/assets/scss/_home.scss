@@ -1,0 +1,61 @@
+main {
+  .sec2 {
+    background-color: $color-lightgreen;
+
+    .text {
+      @include flexbox;
+      flex-direction: column;
+      height: 300px;
+
+      h1,
+      p {
+        color: $color-white;
+      }
+      button {
+        background-color: blue;
+        color: $color-white;
+        height: 30px;
+        width: 80px;
+        margin-top: 20px;
+      }
+    }
+  }
+  .sec3 {
+    h2,p{
+        @include flexbox;
+    }
+    .parent {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      margin-top: 60px;
+      .card {
+        text-align: center;
+        width: 500px;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+
+  .sec4{
+    background-color: orange;
+    .parent1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+        margin-top: 60px;
+    }
+    .card1{
+       text-align: center;
+       width: 200px;
+    }
+    img{
+        width: 100%;
+        border-radius: 50%;
+    }
+  }
+}
