@@ -1,0 +1,10 @@
+#main{
+    .row{
+       .card{
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        padding: 50px;
+       }
+    }
+}

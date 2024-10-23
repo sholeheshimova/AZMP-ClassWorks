@@ -1,0 +1,78 @@
+#header{
+    .head{
+        @include flexbox();
+        justify-content: space-around;
+        height: 85px;
+
+    nav{
+        ul{
+            @include flexbox();
+            gap: 40px;
+            li{
+               a{
+                 color: black;
+               }
+            }
+        }
+    }
+    .ic{
+        display: flex;
+        gap: 10px;
+    }
+    
+    }
+  
+
+   
+ 
+
+
+
+}
+ #banners{
+     
+    .banner{
+        background-color: $primary-bg-color;
+        display: flex;
+        .banner-content{
+            width: 70%;
+        .text{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            row-gap: 20px;
+        h1{
+            font-size: 50px;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        p{
+            font-size: 20px;
+        }
+        .btn{
+         button{
+            width: 120px;
+            height: 50px;
+            background-color: $secondary-color;
+            color: $primary-color;
+            cursor: pointer;
+            &:hover{
+                background-color: red;
+                transition: all 1s;
+                border: none;
+
+            }
+         }
+         
+        }
+        }
+
+    
+     }
+
+    
+}
+ }
+
+ 

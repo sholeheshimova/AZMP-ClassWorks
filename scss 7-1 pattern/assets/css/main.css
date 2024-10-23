@@ -1,0 +1,117 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+#header .head {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  height: 85px;
+}
+#header .head nav ul {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  gap: 40px;
+}
+#header .head nav ul li a {
+  color: black;
+}
+#header .head .ic {
+  display: flex;
+  gap: 10px;
+}
+
+#banners .banner {
+  background-color: lightgray;
+  display: flex;
+}
+#banners .banner .banner-content {
+  width: 70%;
+}
+#banners .banner .banner-content .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  row-gap: 20px;
+}
+#banners .banner .banner-content .text h1 {
+  font-size: 50px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+#banners .banner .banner-content .text p {
+  font-size: 20px;
+}
+#banners .banner .banner-content .text .btn button {
+  width: 120px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+#banners .banner .banner-content .text .btn button:hover {
+  background-color: red;
+  transition: all 1s;
+  border: none;
+}
+
+#main .row .card {
+  display: flex;
+  justify-content: space-around;
+  gap: 30px;
+  padding: 50px;
+}/*# sourceMappingURL=main.css.map */
