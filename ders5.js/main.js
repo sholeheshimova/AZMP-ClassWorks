@@ -68,3 +68,13 @@
 // }
 // console.log(Str("hi my name is shola"));
 
+
+
+
+// arrayi azdan coxa duzun
+
+
+// let arr = [12,3,8,23,9,22,1];
+
+// arr.sort((a,b) => a-b);
+// console.log(arr);
