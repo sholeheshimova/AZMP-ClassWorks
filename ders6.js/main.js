@@ -121,3 +121,4 @@ let milks = [
 // let istehsal = milks.some(milk => milk.MadeIn === "Azerbaijan");
 
 // console.log(istehsal);
+
