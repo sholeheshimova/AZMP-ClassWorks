@@ -1,0 +1,15 @@
+  .sec1{
+    background-color: rgb(240, 215, 179);
+  }
+  
+  
+  
+  .row{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+}
+.col-12{
+    border: 1px solid rgb(212, 209, 209);
+    border-radius: 5px;
+}
