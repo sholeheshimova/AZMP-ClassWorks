@@ -17,6 +17,7 @@ registerForm.addEventListener("submit", function(event){
     
       users.push(user);
       setDataToLocalStorage("users", users);
+      
       window.location.replace("login.html");
       resetForm();
 

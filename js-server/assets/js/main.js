@@ -38,32 +38,29 @@ function cards(array) {
         showCancelButton: true,
         confirmButtonColor: "#3085d6",
         cancelButtonColor: "#d33",
-        confirmButtonText: "Yes, delete it!"
+        confirmButtonText: "Yes, delete it!",
       }).then((result) => {
         if (result.isConfirmed) {
           button.closest(".col-12").remove();
-          Swal.fire(
-            'Deleted'
-          );
+          Swal.fire("Deleted");
         }
       });
     });
   });
 }
 
-document.getElementById("search").addEventListener("input", function(event) {
-  const query = event.target.value.toLowerCase(); // Axtarış sorğusunu kiçik hərflərə çevir
-  const cards = document.querySelectorAll('.col-12'); // Bütün kartları seç
+document.getElementById("search").addEventListener("input", function (event) {
+  const query = event.target.value.toLowerCase();
+  const cards = document.querySelectorAll(".col-12");
 
   cards.forEach((card) => {
-    const title = card.querySelector('.card-title').textContent.toLowerCase(); // Kartın başlığını al
+    const title = card.querySelector(".card-title").textContent.toLowerCase(); // Kartın başlığını al
     if (title.includes(query)) {
-      card.style.display = 'block'; // Başlıq axtarışa uyğundursa, kartı göstər
+      card.style.display = "block";
     } else {
-      card.style.display = 'none'; // Başlıq uyğun gəlmirsə, kartı gizlət
+      card.style.display = "none";
     }
   });
-
-})
+});
 
 getData("blogs");
