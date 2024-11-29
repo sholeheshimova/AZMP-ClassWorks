@@ -54,7 +54,7 @@ document.getElementById("search").addEventListener("input", function (event) {
   const cards = document.querySelectorAll(".col-12");
 
   cards.forEach((card) => {
-    const title = card.querySelector(".card-title").textContent.toLowerCase(); // Kartın başlığını al
+    const title = card.querySelector(".card-title").textContent.toLowerCase();
     if (title.includes(query)) {
       card.style.display = "block";
     } else {

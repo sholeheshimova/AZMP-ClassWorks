@@ -5,17 +5,17 @@ body {
     color: #333;
   }
   
-  /* Səhifənin konteyneri */
+ 
   .container {
     max-width: 400px;
     margin: 0 auto;
     padding: 30px;
-    background-color: #fff;
+    background-color: white;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
   }
   
-  /* Başlıq tərzi */
+  
   h1 {
     text-align: center;
     color: brown;
@@ -24,18 +24,18 @@ body {
   .form-label{
     color: brown;
   }
-  /* Form sahələrinin tərzi */
+  
   .form-control {
     border-radius: 8px;
-    border: 1px solid #ddd;
+    border: 1px solid blanchedalmond;
     padding: 10px;
     margin-bottom: 20px;
   }
   
-  /* Form düyməsi */
+  
   button.btn-primary {
     width: 100%;
-    background-color: #007bff;
+    background-color: blue;
     border: none;
     color: white;
     padding: 12px;
@@ -45,11 +45,6 @@ body {
     transition: background-color 0.3s ease;
   }
   
-  button.btn-primary:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Yaradılan kartın tərzi */
   .card {
     border: none;
     border-radius: 10px;
@@ -59,7 +54,7 @@ body {
   }
   
   .card-header {
-    background-color: #007bff;
+    background-color: blue;
     color: white;
     padding: 15px;
     font-size: 20px;
@@ -76,7 +71,6 @@ body {
     color: #555;
   }
   
-  /* Kartı mərkəzləşdiririk */
   #createdCard {
     margin-top: 30px;
   }
