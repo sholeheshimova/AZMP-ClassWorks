@@ -24,12 +24,14 @@ function table(products) {
         <td>${product.description}</td>
         <td>${product.price}</td>
         <td><button class="btn btn-danger mt-3 delete-btn" data-id="${product.id}">Delete</button>
-         <button class="btn btn-warning mt-3 edit-btn">Edit</button></td>
+         <button class="btn btn-warning mt-3 edit-btn" data-id="${product.id}">Edit</button></td>
 
       </tr>
         `;
     tbody.insertAdjacentHTML("beforeend", rowHTML);
   });
+
+ 
 
   const deleteButtons = document.querySelectorAll(".delete-btn");
   console.log(deleteButtons);
@@ -139,5 +141,16 @@ function deleteProduct(productId) {
   
 
   document.querySelector("#createProductForm").addEventListener("submit", handleCreateProductForm);
+
+
+
+
+getData("products");
+
+
+
+
+
+
+
  
-  getData("products");

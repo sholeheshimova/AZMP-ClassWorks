@@ -55,6 +55,26 @@
           <button type="button" class="btn btn-danger" id="closeModal">Cancel</button>
         </form>
       </div>
+ 
+      <div id="editProductModal" style="display: none;">
+        <form id="editProductForm">
+          <label for="editProductName">Name</label>
+          <input type="text" id="editProductName" required />
+      
+          <label for="editProductDescription">Description</label>
+          <textarea id="editProductDescription" required></textarea>
+      
+          <label for="editProductPrice">Price</label>
+          <input type="number" id="editProductPrice" required />
+      
+          <button type="submit">Save Changes</button>
+          <button type="button" id="closeEditModal">Cancel</button>
+        </form>
+      </div>
+      
+
+
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
