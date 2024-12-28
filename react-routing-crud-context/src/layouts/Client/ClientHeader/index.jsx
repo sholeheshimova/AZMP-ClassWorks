@@ -1,13 +1,14 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { Routes } from "react-router-dom"
+import styles from '../ClientHeader/index.module.scss'
 
 const ClientHeader = () => {
   return (
     <div>
-      <header>
-        <div className="header">
-            <h2 className='clientlogo'>Admin Logo</h2>
+      <header className={styles.secondheader}>
+        <div className={styles.header}>
+            <h2 className={styles.clientlogo}>Client Logo</h2>
             <nav>
                 <ul>
                     <li>

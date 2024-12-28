@@ -1,0 +1,26 @@
+.secondheader{
+    background-color: cornflowerblue;
+    padding: 2rem 0;
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 2rem ;
+        .clientlogo{
+            color: white;
+        }
+        ul{
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            li{
+                a{
+                     color: white;
+                     text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+}
