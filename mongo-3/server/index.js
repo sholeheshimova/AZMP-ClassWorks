@@ -1,35 +1,50 @@
-const express = require('express')
+const express = require("express");
+const mongoose = require("mongoose");
+const productRouter = require("./routes/ProductRoutes")
 const app = express()
 const port = 4000
-const mongoose = require('mongoose');
-const { Schema } = mongoose;
+
+require("dotenv").config();
+app.use(express.json())
 
 
 
+const DB_URL = process.env.DB_URL;
+
+const PORT = process.env.PORT;
 
 
-const productsSchema = new Schema({
-    title: String,
-    author: String,
-})
 
-const ProductsModel = mongoose.model("Products", productsSchema)
+app.use("/products", productRouter)
+// const ProductsModel = mongoose.model("Products", productsSchema)
 
-app.get('/products', async(req, res) => {
-    try {
-        const response = await ProductsModel.find({});
-        res.json({data:response})
-    } catch (error) {
-        console.log(error);
-        
-    }
-  })
+// get all data
+// app.get('/products',)
 
 
-mongoose.connect("mongodb+srv://solaehazmp202:123456S@cluster0.tdger.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+  // get data by id
+
+  // app.get('/products/:id',
+
+
+  // delete data by id
+
+  // app.delete('/products/:id',)
+
+
+  // post data
+
+  // app.post("/products" ,)
+
+  // put data
+
+  // app.put("/products/:id", )
+
+
+mongoose.connect(DB_URL)
   .then(() => {
-    app.listen(port, () => {
-        console.log(`Example app listening on port ${port} `)
+    app.listen(PORT, () => {
+        console.log(`Example app listening on port ${port} url is http://localhost:${port} `)
       })
     console.log('Connected!')});
 
